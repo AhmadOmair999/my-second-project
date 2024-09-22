@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.btn-x:hover{
+    cursor: pointer;
+    /* transform: scale(1) translatey(-3px); */
+    font-weight: bold;
+}
+
+.btn-x{
+    border: none;
+    font-size: 1.5rem;
+    color: rgb(158, 107, 107);
+    float: right;
+    padding: 0% 1% 1% 0;
+    text-align: center;
+    font-weight: bold;
+    background-color:rgb(234, 234, 234) ;
+    margin: -0.4% 0 0 0;
+    
+}
+
+.list-todo{
+    /* background-color: brown; */
+
+    width: 70%;
+    
+    margin: 5rem auto 12rem;
+    border-radius: 10px;
+    padding: 40px 30px 70px;
+    box-shadow: 0px 0px 20px rgb(178, 177, 177);
+}
+.head1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.head1 img{
+    width: 30px;
+    margin: 0 0 0 1%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+
+.input1{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 10px;
+}
+.btn1{
+    border: none; 
+    border-radius: 40px;
+    padding:16px 50px;
+    font-size: 1.2rem;
+    box-shadow: 0 0  10px rgb(196, 194, 194);
+    cursor: pointer;
+    font-family: sans-serif;
+}
+ 
+.cheak1{
+    float: left;
+    margin: 2% 4% 0 0;
+    cursor: pointer;
+    
+}
+input.cheak1:checked{
+    width: 20px;
+    height: 20px;
+    margin: 1.5% 2% 1% 2%;
+}
+
+input.cheak1:not(:checked){
+    width: 20px;
+    height: 20px;
+    margin: 1.5% 2% 1% 2%;
+}
+.head3{
+    letter-spacing: 0.2px;
+    margin: 0 0 2% 0;
+    
+    padding:15px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 50px;
+    color: rgb(146, 139, 139);
+    
+}
+.head3:hover{
+    cursor: pointer;
+}
+
